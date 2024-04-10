@@ -13,7 +13,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </p>
   </div>
 `
-
+console.log(111)
 userApi.query({}).then((users) => {
   document.getElementById('user')!.innerHTML = JSON.stringify(users)
 })
